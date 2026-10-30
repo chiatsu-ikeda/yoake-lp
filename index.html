@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- サイト情報 -->
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no">
+	<title>YOAKE</title>
+
+	<!-- OG -->
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content="" />
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+	<!-- favicon -->
+	<link rel="icon" href="" />
+	<link rel="apple-touch-icon" sizes="180x180" href="">
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="./assets/css/style.min.css" />
+
+	<!-- CDN -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js"></script>
+
+</head>
+<body>
+	
+	<main class="main">
+		<!-- loading -->
+		 <div class="loading" id="loading"></div>
+			<!-- mv -->
+		 <article class="mv">
+			<div class="mv__bg ripple">
+				<div class="mv-dummy-img">
+					<picture>
+						<source srcset="./assets/img/sp/mv-bg.webp" media="(max-width:520px)">
+						<source srcset="./assets/img/pc/mv-bg-lg.webp" media="(max-width:960px)">
+						<img src="./assets/img/pc/mv-bg.webp" alt="">
+					</picture>
+				</div>
+			</div>
+			<div class="mv__yoake-txt">
+				<picture>
+					<img src="./assets/img/pc/mv-yoake-txt.webp" alt="">
+				</picture>
+			</div>
+			<div class="mv__txt" id="mvTxt">
+				<picture>
+					<img src="./assets/img/pc/mv-txt.webp" alt="">
+				</picture>
+			</div>
+		 </article>
+		 <div class="background-container">
+			<div class="blue-base-bg common-bg commonBg bg-open bg1">
+				<picture>
+					<img src="./assets/img/pc/ct01-bg.webp" alt="">
+				</picture>
+			</div>
+			<div class="base-bg common-bg commonBg">
+				<picture>
+					<img loading="lazy" src="./assets/img/pc/base-bg.webp" alt="">
+				</picture>
+			</div>
+			<div class="blue-base-bg common-bg commonBg">
+				<picture>
+					<img loading="lazy" src="./assets/img/pc/blue-base-bg.webp" alt="">
+				</picture>
+			</div>
+			<div class="base-bg common-bg commonBg">
+				<picture>
+					<img loading="lazy" src="./assets/img/pc/base-bg.webp" alt="">
+				</picture>
+			</div>
+			<div class="base-bg common-bg commonBg">
+				<picture>
+					<source srcset="./assets/img/sp/footer-sky-bg.webp" media="(max-width:520px)">
+					<img loading="lazy" src="./assets/img/pc/footer-sky-bg.webp" alt="">
+				</picture>
+			</div>
+			 <!-- ct01 -->
+				<article class="ct01 ct">
+					<div class="ct01__inner">
+						<p class="title common-txt text-fade">新たの美味しさの体験を</p>
+						<p class="sen common-txt text-fade">
+							焼くと溢れる肉汁を<br>シャキッと弾ける野菜のみずみずしさを<br>1日でも長く保ち続けるために。<br>
+							<br>
+							チルドルーム・野菜室・冷凍室で<br>食材を守り続ける技術を研究し<br>その全てを余すことなく搭載したTXシリーズ。<br>
+							<br>
+							こだわりの料理や旬の食材で<br>素材が持つ美味しさを存分に愉しむひととき。<br>空間に美しく調和するデザインで<br>洗練された心地よさに包まれるライフスタイルを叶えます。
+						</p>
+					</div>
+					<div class="ct01-txt">
+						<picture>
+							<source srcset="./assets/img/sp/ct01-txt.webp" media="(max-width:520px)">
+							<img loading="lazy" src="./assets/img/pc/ct01-txt.webp" alt="">
+						</picture>
+					</div>
+				</article>
+				<!-- ct02 -->
+				<article class="ct02 ct">
+					<div class="ct02__inner">
+						<div class="ct02__inner__title" id="lineParent">
+							<span class="line line03"></span>
+							<p class="">体験を</p>
+							<p class="">
+								新たな美味しさの
+								<span class="line line01"></span>
+								<span class="line line02"></span>
+							</p>
+						</div>
+						<p class="ct02__inner__sen common-txt-blue text-blue-fade">
+							焼くと溢れる肉汁を<br>シャキッと弾ける野菜のみずみずしさ<br>を1日でも長く保ち続けるために。<br>
+							<br>
+							チルドルーム・野菜室・冷凍室で<br>食材を守り続ける技術を研究し<br>その全てを余すことなく搭載したTXシリーズ。
+						</p>
+					</div>
+					<div class="img-wrap">
+						<div class="mask-wrap maskWrap">
+							<div class="ct02-img">
+								<picture>
+									<img loading="lazy" src="./assets/img/pc/ct02-orange.webp" alt="">
+								</picture>
+							</div>
+						</div>
+					</div>
+				</article>
+				<!-- ct03 -->
+				<article class="ct03 ct">
+					<div class="ct03__inner">
+						<div class="ct03__inner__sen top-sen">
+							<p class="common-txt text-fade">
+								焼くと溢れる肉汁を<br>シャキッと弾ける野菜のみずみずしさを<br>1日でも長く保ち続けるために。<br>
+								<br>
+								チルドルーム・野菜室・冷凍室で<br>食材を守り続ける技術を研究し<br>その全てを余すことなく搭載したTXシリーズ。
+							</p>
+						</div>
+						<div class="ct03__inner__sen bottom-sen">
+							<p class="common-txt text-fade">
+								焼くと溢れる肉汁を<br>シャキッと弾ける野菜のみずみずしさを<br>1日でも長く保ち続けるために。<br>
+								<br>
+								チルドルーム・野菜室・冷凍室で<br>食材を守り続ける技術を研究し<br>その全てを余すことなく搭載したTXシリーズ。
+							</p>
+						</div>
+					</div>
+					<div class="ct03__bg01">
+						<div class="mask-wrap maskWrap">
+							<picture>
+								<img loading="lazy" src="./assets/img/pc/ct03-bg01.webp" alt="">
+							</picture>
+						</div>
+					</div>
+					<div class="ct03__bg02">
+						<div class="mask-wrap maskWrap">
+							<picture>
+								<img loading="lazy" src="./assets/img/pc/ct03-bg02.webp" alt="">
+							</picture>
+						</div>
+					</div>
+				</article>
+				<!-- ct04 -->
+				<article class="ct04 ct">
+					<div class="ct04__inner">
+						<p class="ct04__inner__sen common-txt-blue text-blue-fade">
+							焼くと溢れる肉汁を<br>シャキッと弾ける野菜のみずみずしさを<br>1日でも長く保ち続けるために。<br>
+							<br>
+							チルドルーム・野菜室・冷凍室で<br>食材を守り続ける技術を研究し<br>その全てを余すことなく搭載したTXシリーズ。
+						</p>
+						<div class="orange-wrap">
+							<div class="orange01 orange orange-open">
+								<picture>
+									<img loading="lazy" src="./assets/img/pc/orange01.webp" alt="">
+								</picture>
+							</div>
+							<div class="orange02 orange">
+								<picture>
+									<img loading="lazy" src="./assets/img/pc/orange02.webp" alt="">
+								</picture>
+							</div>
+							<div class="orange03 orange">
+								<picture>
+									<img loading="lazy" src="./assets/img/pc/orange03.webp" alt="">
+								</picture>
+							</div>
+							<div class="orange-ob orangeOb"></div>
+							<div class="orange-ob orangeOb"></div>
+							<div class="orange-ob orangeOb"></div>
+						</div>
+						<div class="orange-drop" id="orangeDrop">
+							<img loading="lazy" src="./assets/img/pc/drop.webp" alt="">
+						</div>
+						<div class="ripple-orange-wrap">
+							<div class="ripple-orange ripple-orange-first rippleOrangeFirst rippleOrange"></div>
+							<div class="ripple-orange delay1 rippleOrange"></div>
+							<div class="ripple-orange delay2 rippleOrange"></div>
+							<div class="ripple-orange delay3 rippleOrange"></div>
+							<div class="ripple-orange delay4 rippleOrange"></div>
+						</div>
+					</div>
+				</article>
+		 </div>
+			<footer class="footer ct">
+				<div class="main-img">
+					<picture>
+						<source srcset="./assets/img/sp/footer-main-img.webp" media="(max-width:520px)">
+						<img loading="lazy" src="./assets/img/pc/footer-main-img.webp" alt="">
+					</picture>
+				</div>
+				<div class="footer-txt">
+					<p class="">© Amami Oshima KAIUN SHUZO CO., LTD. All rights reserved.</p>
+				</div>
+				<!-- <div class="sky-img">
+					<picture>
+						<source srcset="./assets/img/sp/footer-sky-bg.webp" media="(max-width:520px)">
+						<img src="./assets/img/pc/footer-sky-bg.webp" alt="">
+					</picture>
+				</div> -->
+				<!-- <div class="base-bg">
+					<picture>
+						<img src="./assets/img/pc/base-bg.webp" alt="">
+					</picture>
+				</div> -->
+			</footer>
+	</main>
+
+	<script src="./assets/js/index.js"></script>
+</body>
+</html>
